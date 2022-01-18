@@ -5,13 +5,6 @@ use rand::{thread_rng, Rng};
 use std::{thread, time};
 use colour::{self, green_ln, red_ln};
 
-struct Game {
-    words: String,
-    words_char: Vec<char>,
-    answered_char: Vec<char>,
-    
-}
-
 fn into_dash(s: &String) -> String {
     s
     .chars()
